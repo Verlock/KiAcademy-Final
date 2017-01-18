@@ -167,10 +167,14 @@ footer h3{
   height: 600px;
 }
 
-#address{
+#maps{
   font-size: 3rem
 }
 
+#maps li{
+  list-style: none;
+  margin-top: 5%;
+}
 /*price page*/
 
 #month{
