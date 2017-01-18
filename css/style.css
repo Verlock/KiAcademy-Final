@@ -25,11 +25,106 @@
 }
 .glyphicon-menu-hamburger{
   font-size: 3.5rem;
-  
+
 }
 
 nav h1{
 margin-top: 0;
 margin-left: 5%;
 padding-top: 0.3%;
+}
+
+.jumbotron{
+  background: url("../img/banner.jpg");
+  background-size: cover;
+  height: 40rem;
+}
+
+.banner-statement{
+  background: rgba(35, 107, 142 , 0.7 );
+  width: 75%;
+  border-radius: 1%;
+  margin: 0 auto;
+}
+  .banner-statement p{
+    padding: 2%;
+    font-size: 3rem;
+    color: white;
+  }
+
+/*Main Section*/
+main{
+  margin-top: 4%;
+}
+
+/*After school Section*/
+#after-school p{
+  font-size: 2rem;
+}
+
+#after-school li{
+  list-style: none;
+  font-size: 3rem;
+}
+
+
+
+#after-school img{
+  width: 100%;
+}
+
+/*Other Program Section*/
+
+#other-program{
+  margin-top: 5%;
+
+}
+#other-program h2{
+  text-align: center;
+}
+
+#other-program img{
+  width: 100%
+}
+
+#other-program li{
+  list-style: none;
+  font-size: 3.5rem;
+}
+
+/*Contact home Section*/
+
+#contact{
+  margin-top: 5%;
+}
+
+#contact h2{
+  text-align: center;
+  padding-left: 2%;
+  font-size: 4rem
+}
+
+#contact li{
+  list-style: none;
+  font-size: 2rem;
+  display: block;
+  margin-left: 5%;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#contact .btn{
+  margin-top: 5%;
+  font-size: 5rem;
+  background: #3b5998;
+  color: #f7f7f7;
+}
+/*footer section*/
+footer{
+  margin-top: 2%;
+
+}
+footer h3{
+  text-align: center;
 }
