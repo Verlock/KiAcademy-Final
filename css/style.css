@@ -170,3 +170,82 @@ footer h3{
 #address{
   font-size: 3rem
 }
+
+/*price page*/
+
+#month{
+  background: #666;
+}
+#price{
+  background: #dfe3ee;
+}
+table, table th{
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.school-price, .other-price-a, .other-price-b, .other-price-c{
+  margin-top: 5rem;
+}
+  .school-price th, .other-price-a th, .other-price-b th, .other-price-c th{
+    font-size: 4rem;
+    background: #666;
+    margin-top: 5rem;
+  }
+  .school-price td, .other-price-a td, .other-price-b td , .other-price-c td{
+    font-size: 3rem;
+    background: #3b5998;
+
+  }
+
+  /*Camp Page*/
+
+  #camp{
+  background: #FFA500;
+}
+#camp .well{
+  background: #ffc966;
+}
+.camp{}
+  .camp .camp-section-sub{
+    margin-top: 5rem;
+  }
+    .camp h1{
+      text-align: center;
+      color: #fff;
+      font-size: 8rem
+    }
+    .camp img{
+      width: 100%;
+      border: 2px solid #000;
+    }
+    .camp h2{
+      font-size: 5rem;
+      text-align: center;
+    }
+    .camp p{
+      font-size: 5rem;
+      padding: 5%;
+    }
+
+
+/*About Page*/
+
+#about-header p{
+  font-size: 3rem;
+}
+
+#about-header p img{
+  width: 10%;
+  border-radius: 35%;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 3px;
+}
+
+
+#about-master img{
+  width: 100%;
+}
