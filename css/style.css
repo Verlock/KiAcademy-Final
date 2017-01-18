@@ -328,8 +328,13 @@ table, table th{
     }
 
     #contact li{
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-top: 10%;
+      margin-left: -5%;
+
+    }
+    #contact li:nth-child(2){
+      font-size: 1.95rem;
     }
 
     #contact button{
