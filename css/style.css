@@ -109,6 +109,9 @@ main{
   font-size: 3.5rem;
 }
 
+#after-school .mobile, #other-program .mobile{
+  display: none;
+}
 /*Contact home Section*/
 
 #contact{
@@ -174,6 +177,16 @@ footer h3{
 #maps li{
   list-style: none;
   margin-top: 5%;
+}
+
+#maps2 iframe{
+  display: none;
+
+}
+
+#maps2 p, #maps2 ul, #maps2 address, #maps2 li{
+  display: none;
+
 }
 /*price page*/
 
@@ -252,4 +265,184 @@ table, table th{
 
 #about-master img{
   width: 100%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  /*Home Page*/
+    .js-toggle-left-slidebar{
+      margin: 2%;
+    }
+    nav h1{
+      display: none;
+    }
+
+    .jumbotron{
+      margin-top: 8%;
+    }
+
+    #banner p{
+      font-size: 1.8rem;
+
+    }
+
+    #after-school h2{
+      font-size: 2.5rem;
+    }
+
+    #after-school p{
+      font-size: 1.5rem;
+    }
+
+    #after-school .col-xs-6{
+      display: none;
+    }
+
+    #after-school .col-xs-12{
+      display: block;
+    }
+
+    #after-school li{
+      font-size: 2rem;
+    }
+
+    #other-program h2{
+      font-size: 2.5rem;
+    }
+
+    #other-program .col-xs-6{
+      display: none;
+    }
+
+    #other-program .col-xs-12{
+      display: block;
+    }
+
+    #other-program li{
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    #contact h2{
+      font-size: 3rem;
+    }
+
+    #contact li{
+      font-size: 1.5rem;
+      margin-top: 10%;
+    }
+
+    #contact button{
+      width: 99.2%;
+    }
+    /*Events Page*/
+    #events{
+        padding-top: 20px;
+    }
+
+    #events iframe{
+      height: 300px;
+    }
+
+    #maps iframe, #maps p, #maps ul, #maps address{
+      display: none;
+    }
+
+    #maps2 iframe{
+      display: block;
+      width: 100%;
+      border: 2px solid #000;
+    }
+
+    #maps2 p, #maps2 ul, #maps2 address, #maps2 li{
+      display: block;
+      margin-top: 3%;
+      list-style: none;
+    }
+
+    /*Price Page*/
+    #price th{
+      font-size: 3rem;
+    }
+
+    #price td{
+      font-size: 2rem;
+    }
+
+    /*Camp page*/
+    #camp h1{
+      font-size: 4rem;
+    }
+
+    #camp h2{
+      font-size: 3rem;
+    }
+
+    #camp p{
+      padding: 0;
+      font-size: 2rem;
+    }
+
+    .camp-section-sub h2{
+      font-size: 1rem;
+    }
+
+    /*ABout Page*/
+    #about-header p{
+      font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1100px){
+  /*Home Page*/
+  nav h1{
+    padding:0.7% 0 0 5%;
+  }
+
+  #after-school li{
+    font-size: 2rem;
+  }
+
+  /*Camp Page*/
+  .camp-section-sub p {
+    font-size: 4rem;
+  }
+}
+
+@media only screen  and (min-width : 1224px) {
+  /*Genral Style*/
+  #main, #camp{
+    width: 90%;
+    margin: 0% auto;
+  }
+
+  /*Events Page*/
+  #events, #maps {
+    width: 50%;
+    float: left;
+  }
+
+  #events h1, #maps h1 {
+    display: none;
+  }
+
+  #maps iframe{
+
+    margin-top: 4.6rem;
+    margin-left: 5rem;
+  }
+
+
+#maps p ,#maps li ,#maps address{
+  font-size: 2rem;
+  margin-left: 5rem;
+
+}
+#maps .address-events{
+  margin-top: 5rem;
+}
+/*ABout page*/
+  #main, #camp{
+    margin-top: 5rem;
+  }
 }
